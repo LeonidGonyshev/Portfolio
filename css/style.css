@@ -79,6 +79,15 @@ li {
         align-items: center;
     }
 }
+.header__menu-link {
+    transition: 0.2s background-color ease-in-out;
+}
+.header__menu-link:hover {
+    background-color: #828282;
+}
+.header__menu-link:active {
+    background-color:#F6F6F6;
+}
 .hero__top {
     display: flex;
     justify-content: space-between;
