@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonid</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <nav class="header__menu">
+                <a href="#about" class="header__menu-link">Домой</a>
+                <a href="#about" class="header__menu-link">О себе</a>
+                <a href="#stec" class="header__menu-link">Мой стэк</a>
+                <a href="#portfolio" class="header__menu-link">Портфолио</a>
+                <a href="#hobbi" class="header__menu-link">Мои хобби</a>
+                <a href="#contacts" class="header__menu-link">Контакты</a>
+            </nav>
+            <div class="burger-menu">
+                <img src="img/burger-menu.svg" alt="burger-menu">
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="wrapper">
+                <div class="hero__top">
+                    <h1 class="hero__title">Гонышев Леонид</h1>
+                    <div class="hero__descr">
+                        <p class="hero__descr-prof">Фронтенд/Вёрстка</p>
+                        <p class="hero-descr-prof">27 Лет, Казахстан</p>
+                    </div>
+                    <div class="hero__experience">
+                        <p>Работаю 1+ год на фрилансе</p>
+                    </div>
+                </div>
+                <div class="hero__bottom">
+                    <picture class="hero__bottom-picture">
+                        <source srcset="img/hero-foto-mob.jpg" media="(max-width: 769px)">
+                        <img src="img/hero-foto.jpg" alt="foto">
+                    </picture>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="wrapper">
+                <h3 class="section__title">
+                    О себе
+                </h3>
+                <div class="about__descr">
+                    <span class="about__descr-text">Добрый день, меня зовут Леонид. Мне 27 лет, занимаюсь фронтенд разработкой.</span>
+                    <span class="about__descr-text">Прошёл курсы: "Frontend-разработчик PRO от SkillBox, Frontend-разработчик от Нетология.</span>
+                    <span class="about__descr-text">Мой технологический стек: HTML, CSS, SCSS, JS, FIGMA, БЭМ, GIT, NODE.JS, Webpack, PYTHON, изучаю React</span>
+                    <span class="about__descr-text">Владею навыками Адаптивной, семантической вёрстки, готов к рутинной работе, быстро и с удовольствием осваиваю новые знания.</span>
+                </div>
+            </div>
+        </section>
+        <section id="stec" class="stec">
+            <div class="wrapper">
+                <h3 class="section__title">Мой стек</h3>
+                <ul class="stec__list">
+                    <li class="stec__list-item">
+                        <figure class="stec-figure">
+                            <img src="img/html.png" alt="html" class="stec-img">
+                            <figcaption class="stec-figcap">
+                                HTML
+                            </figcaption>
+                        </figure>
+                        <div class="stec-stars">
+                            <div class="stec-stars-full"></div>
+                            <div class="stec-stars-full"></div>
+                            <div class="stec-stars-full"></div>
+                            <div class="stec-stars-full"></div>
+                            <div class="stec-stars-full"></div>
+                        </div>
+                    </li>
+                    <li class="stec__list-item">
+                        <figure class="stec-figure">
+                            <img src="img/css.png" alt="css" class="stec-img">
+                            <figcaption class="stec-figcap">
+                                CSS
+                            </figcaption>
+                        </figure>
+                        <div class="stec-stars">
+                            <div class="stec-stars-full"></div>
+                            <div class="stec-stars-full"></div>
+                            <div class="stec-stars-full"></div>
+                            <div class="stec-stars-full"></div>
+                            <div class="stec-stars-full"></div>
+                        </div>
+                    </li>
+                    <li class="stec__list-item">
+                        <figure class="stec-figure">
+                            <img src="img/js.jpg" alt="js" class="stec-img">
+                            <figcaption class="stec-figcap">
+                                JS
+                            </figcaption>
+                        </figure>
+                        <div class="stec-stars">
+                            <div class="stec-stars-full"></div>
+                            <div class="stec-stars-full"></div>
+                            <div class="stec-stars-full"></div>
+                            <div class="stec-stars-full"></div>
+                            <div class="stec-stars-null"></div>
+                        </div>
+                    </li>
+                    <li class="stec__list-item">
+                        <figure class="stec-figure">
+                            <img src="img/git-logo.png" alt="git" class="stec-img">
+                            <figcaption class="stec-figcap">
+                                GIT
+                            </figcaption>
+                        </figure>
+                        <div class="stec-stars">
+                            <div class="stec-stars-full"></div>
+                            <div class="stec-stars-full"></div>
+                            <div class="stec-stars-full"></div>
+                            <div class="stec-stars-full"></div>
+                            <div class="stec-stars-null"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="portfolio" class="portfolio">
+            <div class="wrapper">
+                <h3 class="section__title">Портфолио</h3>
+                <div class="swiper slider-container">
+                    <div class="swiper-wrapper slider-wrapper">
+                        <div class="swiper-slide portfolio-slide">
+                            <picture class="portfolio-pic">
+                                <source srcset="img/drive-moto-mob.png" media="(max-width: 769px)">
+                                <img src="img/drive-moto.png" alt="portfolio" class="portfolio-img">
+                            </picture>
+                            <a href="https://leonidgonyshev.github.io/Gidro/" class="portfolio-link" target="_blank">Leonid Gonyshev Gidro</a>
+                        </div>
+                        <div class="swiper-slide portfolio-slide">
+                            <picture class="portfolio-pic">
+                                <source srcset="img/steel-kz-mob.png" media="(max-width: 769px)">
+                                <img src="img/steel-kz.png" alt="portfolio" class="portfolio-img">
+                            </picture>
+                            <a href="https://leonidgonyshev.github.io/test/" class="portfolio-link" target="_blank">Leonid Gonyshev Steel-kz</a>
+                        </div>
+                        <div class="swiper-slide portfolio-slide">
+                            <picture class="portfolio-pic">
+                                <source srcset="img/Nike-mob.png" media="(max-width: 769px)">
+                                <img src="img/Nike.png" alt="portfolio" class="portfolio-img">
+                            </picture>
+                            <a href="https://leonidgonyshev.github.io/Nike/" class="portfolio-link" target="_blank">Leonid Gonyshev Nike</a>
+                        </div>
+                        <div class="swiper-slide portfolio-slide">
+                            <picture class="portfolio-pic">
+                                <source srcset="img/Batman-mob.png" media="(max-width: 769px)">
+                                <img src="img/Batman.png" alt="portfolio" class="portfolio-img">
+                            </picture>
+                            <a href="https://leonidgonyshev.github.io/Batman/" class="portfolio-link" target="_blank">Leonid Gonyshev Batman</a>
+                        </div>
+                        <div class="swiper-slide portfolio-slide">
+                            <picture class="portfolio-pic">
+                                <source srcset="img/Rocteer-mob.png" media="(max-width: 769px)">
+                                <img src="img/Rocteer.png" alt="portfolio" class="portfolio-img">
+                            </picture>
+                            <a href="https://leonidgonyshev.github.io/Rocketeer/" class="portfolio-link" target="_blank">Leonid Gonyshev Rocteer</a>
+                        </div>
+                        <div class="swiper-slide portfolio-slide">
+                            <picture class="portfolio-pic">
+                                <source srcset="img/Free-travel-mob.png" media="(max-width: 769px)">
+                                <img src="img/Free-travel.png" alt="portfolio" class="portfolio-img" target="_blank">
+                            </picture>
+                            <a href="https://leonidgonyshev.github.io/Free-Travel/" class="portfolio-link">Leonid Gonyshev Free-travel</a>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <section id="hobbi" class="hobbi">
+            <div class="wrapper">
+                <h3 class="section__title">Хобби</h3>
+                <nav class="hobbi-items">
+                    <a href="#tab-1" class="hobbi-link tab-active">Семья</a>
+                    <a href="#tab-2" class="hobbi-link">Хоккей</a>
+                    <a href="#tab-3" class="hobbi-link">Путешествия</a>
+                </nav>
+                <div id="tab-1" class="hobbi-tab tab-standart">
+                    <ul class="hobbi-list">
+                        <li class="hobbi-item"><img src="img/famili-1.jpg" alt="foto-fam"></li>
+                        <li class="hobbi-item"><img src="img/famili-3.jpg" alt="foto-fam"></li>
+                        <li class="hobbi-item"><img src="img/famili-4.jpg" alt="foto-fam"></li>
+                    </ul>
+                </div>
+                <div id="tab-2" class="hobbi-tab">
+                    <ul class="hobbi-list">
+                        <li class="hobbi-item"><img src="img/hokkey-1.jpg" alt="foto-fam"></li>
+                        <li class="hobbi-item"><img src="img/hokkey-2.jpg" alt="foto-fam"></li>
+                        <li class="hobbi-item"><img src="img/hokkey-3.jpg" alt="foto-fam"></li>
+                    </ul>
+                </div>
+                <div id="tab-3" class="hobbi-tab">
+                    <ul class="hobbi-list">
+                        <li class="hobbi-item"><img src="img/travel-1.jpg" alt="foto-fam"></li>
+                        <li class="hobbi-item"><img src="img/travel-2.jpg" alt="foto-fam"></li>
+                        <li class="hobbi-item"><img src="img/travel-4.jpg" alt="foto-fam"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contacts" class="footer">
+        <div class="wrapper">
+            <h3 class="section__title">Контакты</h3>
+            <address class="contacts__address">
+                <a href="+7073699040" class="contacts-tel">+7 707 3699040</a>
+                <a href="maroop@bk.ru" class="contacts-email">Maroop@bk.ru</a>
+            </address>
+        </div>
+     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>  
+</body>
+</html>
