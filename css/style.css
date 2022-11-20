@@ -244,6 +244,13 @@ li {
 }
 .hobbi-link {
     padding: 10px;
+    transition: 0.2s background-color ease-in-out;
+}
+.hobbi-link:hover {
+    background-color:#F6F6F6;
+}
+.hobbi-link:active {
+    background-color:#828282;
 }
 .hobbi-list {
     display: flex;
